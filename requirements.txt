@@ -1,0 +1,6 @@
+HTSeq==2.0.4
+numpy==1.26.1
+pandas==2.1.1
+primer3-py==2.0.1
+pysam==0.22.0
+tqdm==4.65.0
