@@ -12,7 +12,9 @@ from typing import (
 )
 
 def basic_primer_design(seq_id, p3seq, p3args, index) -> Dict[str, Any]:
-
+#Primer design function that wraps primer3-py call
+#Return primers results as dict
+    
    seq_args = {
       'SEQUENCE_OVERLAP_JUNCTION_LIST': index,
       'SEQUENCE_ID': seq_id,
@@ -62,7 +64,11 @@ def generateConsensus(bamfile,ref):
 
 
 def p3Design(cons_sequence, regions, output_filename='pablog_results.txt'):
-   
+#Primer3 Design step using primer3 utility
+#Sequence template input is generated and parameters parsed from settings file
+#primer3-py wrap is called and results returned  
+#Results are printed out in PABLOG result's text file     
+
    p3seq,indices = otherUtils.sequence2primer3(cons_sequence, regions)
    p3args = otherUtils.p3Args_fromfile("primer3_settings.txt")
   
