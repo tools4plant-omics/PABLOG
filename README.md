@@ -87,7 +87,7 @@ Examples of output can be found inside examples/ folder.
 Some examples are available inside examples/ folder. We added experiments for DAG and TPL genes benchmark, each of them has all required files and also the PABLOG's results. The user can see those as reference or to test the tool functionality. 
 
 In case of doubts or report, don't hesitate to submit an issue in the dedicated section.
-Opinions and suggestions are welcome aswell!
+Opinions and suggestions are welcome as well!
 
 ## Known issues / work in progress
 
@@ -95,13 +95,9 @@ This is the first release of PABLOG and some aspects are still work in progress.
 
 Regarding some of these, we are working on solving the incosistency of low <em> size </em> values, as one of the effects is producing too many regions that makes consensus-sequence's edit a little tricky (how manage semi/full overlapping regions? maybe fuse into one region? keep one and remove others? which one?).
 
-An other aspect that is already work in progress, is about managing different primer3 settings for different regions. Right now every primer design share the same set of parameters values: let's say we found a region that did not produce a primer and probably a lower melting temperature (PRIMER_MIN_TM) would solve the problem, we would need to change the setting for all other primers aswell.   
+An other aspect that is already work in progress, is about managing different primer3 settings for different regions. Right now every primer design share the same set of parameters values: let's say we found a region that did not produce a primer and probably a lower melting temperature (PRIMER_MIN_TM) would solve the problem, we would need to change the setting for all other primers as well.   
 
-Moreover, a presets system maybe be implemented with specific configuration (alignment + primer3) for different use-cases(about this, feedback from pratical usage is crucial).
+Moreover, a presets system maybe be implemented with specific configuration (alignment + primer3) for different use-cases (about this, feedback from pratical usage is crucial).
 
 From tests and experiments performed, a good quality alignment with default settings produces very good results.
 So we recommend to keep default settings and eventually tweak parameters on the alignemnt side.
-
-
-
-
