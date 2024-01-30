@@ -100,4 +100,4 @@ An other aspect that is already work in progress, is about managing different pr
 Moreover, a presets system maybe be implemented with specific configuration (alignment + primer3) for different use-cases (about this, feedback from pratical usage is crucial).
 
 From tests and experiments performed, a good quality alignment with default settings produces very good results.
-So we recommend to keep default settings and eventually tweak parameters on the alignemnt side.
+So we recommend to keep default settings and eventually tweak parameters on the alignment side.
