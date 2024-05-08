@@ -83,11 +83,23 @@ The last section contains the input template sequence used by primer3 (the conse
 
 Examples of output can be found inside examples/ folder.  
 
-## Examples
-Some examples are available inside examples/ folder. We added experiments for DAG and TPL genes benchmark, each of them has all required files and also the PABLOG's results. The user can see those as reference or to test the tool functionality. 
+## Running examples
 
-In case of doubts or report, don't hesitate to submit an issue in the dedicated section.
-Opinions and suggestions are welcome as well!
+Some examples are available inside examples/ folder. We added experiments for DAG and TPL genes benchmark, each of them has all required files and also the PABLOG's results. The user can see those as reference or to test the tool functionality.
+
+After cloning the repo, run examples as follows:
+
+      
+   1) Navigate to PABLOG/ folder and open a command line;
+   2) Run pablog on DAG with:
+
+            python pablog.py examples/DAG/SRR22407318_2_to_DAG_Daucus_CarotaAligned.sortedByCoord.out.bam examples/DAG/    DAG_genome_ref_Daucuscarota.fa outputDAG.txt
+   3) Run pablog on TPL with:
+            
+            python pablog.py examples/TPL/SRR22407318_2_to_TPL_SesamoAligned.sortedByCoord.out.bam examples/TPL/TPL_Sesamo_ref_gene.fa outputTPL.txt 50
+      Note: in TPL example a smaller <em> size </em> value is required (50) to actually detect candidate regions  
+
+In case of doubts or report, don't hesitate to submit an issue in the dedicated section. Opinions and suggestions are welcome as well!
 
 ## Known issues / work in progress
 
