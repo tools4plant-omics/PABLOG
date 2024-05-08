@@ -93,7 +93,7 @@ After cloning the repo, run examples as follows:
    1) Navigate to PABLOG/ folder and open a command line;
    2) Run pablog on DAG with:
 
-            python pablog.py examples/DAG/SRR22407318_2_to_DAG_Daucus_CarotaAligned.sortedByCoord.out.bam examples/DAG/    DAG_genome_ref_Daucuscarota.fa outputDAG.txt
+            python pablog.py examples/DAG/SRR22407318_2_to_DAG_Daucus_CarotaAligned.sortedByCoord.out.bam examples/DAG/DAG_genome_ref_Daucuscarota.fa outputDAG.txt
    3) Run pablog on TPL with:
             
             python pablog.py examples/TPL/SRR22407318_2_to_TPL_SesamoAligned.sortedByCoord.out.bam examples/TPL/TPL_Sesamo_ref_gene.fa outputTPL.txt 50
