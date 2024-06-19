@@ -113,3 +113,6 @@ Moreover, a presets system may be implemented with a specific configuration (ali
 
 From tests and experiments performed, a good quality alignment with default settings produces very good results.
 So we recommend keeping the default settings and eventually tweaking parameters on the alignment side.
+
+## Citation
+The original work is now published and available at doi.org/10.1111/ppl.14398
