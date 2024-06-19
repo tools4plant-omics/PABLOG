@@ -115,4 +115,4 @@ From tests and experiments performed, a good quality alignment with default sett
 So we recommend keeping the default settings and eventually tweaking parameters on the alignment side.
 
 ## Citation
-The original work is now published and available at [doi.org/10.1111/ppl.14398](https://doi.org/10.1111/ppl.14398)
+The original paper describing PABLOG tool is now published and available at [doi.org/10.1111/ppl.14398](https://doi.org/10.1111/ppl.14398)
